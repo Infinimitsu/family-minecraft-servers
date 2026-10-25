@@ -1,0 +1,91 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "13549bdf0c809b1d60c6cfabae608c533ea42c6ec2861c2ba8b5be122bd71189"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "76102b46589c7a53fd149b3a3b1945d2b98395a5a0d300d7f510f01cce24a40d"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "b2f2ef63febe17f277635827ca474e1aeae321e8a82bef78942116f95d00250a"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "98a1b693102afc64f47b0c45eba126f1febbed20825a13d5fb5daf5b952b356c"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "e03fc0b0c151c5c072ac399d27b5c4268a093c41be73f3b1578d050bb49211f3"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "df9d69dc784ef61e99064407952d34c294f62fe1155b5260f825bd9a82e2f3a2"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "d51f560508eb7bfa502a445472370134d78f8c8ddc2dd79f9a0dc303f35f810f"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "342252ed725f0f0ad82c1826c8d6bce07d21f05f6a441911b2f0eb23b27253f2"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "6174a17fcc4f545c1260f8d7ded2c61067f479427d37bbb74f41d4f33b0930bf"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "09d2dbee70e91e8859e6f62e4181a80264d6dd24cc686fbedb93dda9f69fdfe6"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+hash = "cf0ca86a21c8421e7c3273d7136666f3cf309fec821bc9b10d3ac0c55a6c03aa"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "8c17a4f1d4fbf5f04383358a0993aaa9a756a544fc979fe549425fa36bb4820c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "d96811ad169e1bd0c06cb83864aa35110fa1704f2e1a62496c351633275c6a7e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "3237cdd3145b5bad7d5f6c24dce2d92cd67800941009c09102604a1e972b71a2"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "df8a6c77803d9192beeddad6d787b8e472cfa97c1d5685e28fed6461731e185d"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "36546c5e6d1a4831d35c257f6805559d562cf9391c08897e362bdfe7765d1a19"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "ff2431390386e9308fd50dc36223a6cde9d69eee87de8821ca7e5fc331885b97"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "6171113412b369c401065c31e329a21765de9381d9f12e147d57fc4451bbfddd"
+metafile = true

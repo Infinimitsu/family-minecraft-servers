@@ -1,0 +1,13 @@
+name = "Routes"
+filename = "routes-neoforge-1.2.119.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PfmV1XPQ/versions/Icskl0LC/routes-neoforge-1.2.119.jar"
+hash-format = "sha512"
+hash = "f6fc46e6a953b331df1080050512a0e1dab5bffc414befa747b0b04c71a2ef6e59986c008e882384bbe95f1ae08d614baeaedc57d947146777c4ef7c2b898e38"
+
+[update]
+[update.modrinth]
+mod-id = "PfmV1XPQ"
+version = "Icskl0LC"

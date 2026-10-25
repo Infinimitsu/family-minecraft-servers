@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "family:diamond_geode",
+    "family:emerald_geode"
+  ],
+  "step": "local_modifications"
+}
