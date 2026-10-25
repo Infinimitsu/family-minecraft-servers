@@ -1,1 +1,27 @@
-dist/
+# ALLOWLIST: this repo is public. Everything is ignored unless listed below, so a new
+# folder or a stray file (logs, worlds, jars, configs, screenshots, secrets) can't be
+# committed by accident. To publish something new, add it here on purpose.
+/*
+!/.gitignore
+!/README.md
+!/family-tech/
+!/family-server/
+
+/family-*/*
+!/family-*/README.md
+!/family-*/MODS.md
+
+# packwiz packs: .toml metadata only (names, versions, download links; never jars).
+!/family-*/pack/
+/family-*/pack/**
+!/family-*/pack/**/
+!/family-*/pack/**/*.toml
+
+# Family Tech's server-side tuning: scripts and datapack JSON only.
+!/family-tech/server/
+/family-tech/server/**
+!/family-tech/server/**/
+!/family-tech/server/*.py
+!/family-tech/server/kubejs/server_scripts/*.js
+!/family-tech/server/datapacks/**/*.json
+!/family-tech/server/datapacks/**/*.mcmeta
