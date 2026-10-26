@@ -71,6 +71,27 @@ const TIERS = {
   },
 }
 
+// Pokémon gear, only on servers with Cobblemon installed (the test server for now).
+// (A const inside this block trips Rhino's "redeclaration" check, so cm is a top-level function.)
+function cm(id) { return "cobblemon:" + id }
+if (Platform.isLoaded("cobblemon")) {
+  TIERS.everyday.extra = () => [
+    item(cm("poke_ball"), [3, 8], 12), item(cm("great_ball"), [1, 4], 6), item(cm("exp_candy_s"), [1, 4], 6),
+    item(cm("potion"), [1, 3], 5), item(cm("oran_berry"), [2, 6], 5),
+  ]
+  TIERS.adventure.extra = () => [
+    item(cm("great_ball"), [2, 6], 8), item(cm("ultra_ball"), [1, 3], 6), item(cm("rare_candy"), [1, 3], 6),
+    item(cm("exp_candy_m"), [1, 4], 5), item(cm("fire_stone"), 1, 3), item(cm("water_stone"), 1, 3),
+    item(cm("thunder_stone"), 1, 3), item(cm("leaf_stone"), 1, 3), item(cm("moon_stone"), 1, 3),
+    item(cm("ice_stone"), 1, 2), item(cm("everstone"), 1, 2),
+  ]
+  TIERS.boss.extra = () => [
+    item(cm("ultra_ball"), [3, 8], 8), item(cm("rare_candy"), [3, 8], 8), item(cm("exp_candy_xl"), [1, 4], 5),
+    item(cm("master_ball"), 1, 1), item(cm("sun_stone"), 1, 3), item(cm("dawn_stone"), 1, 3),
+    item(cm("dusk_stone"), 1, 3), item(cm("shiny_stone"), 1, 3),
+  ]
+}
+
 LootJS.lootTables(event => {
   const counts = { everyday: 0, adventure: 0, boss: 0 }
   // (getLootTableIds' regex filter matched nothing here, so filter the full list in JS.)
@@ -82,7 +103,7 @@ LootJS.lootTables(event => {
     event.getLootTable(id).createPool(pool => {
       pool.name("family_tier_" + tier)
       pool.rolls(t.rolls)
-      t.entries().forEach(e => pool.addEntry(e))
+      t.entries().concat(t.extra ? t.extra() : []).forEach(e => pool.addEntry(e))
     })
     counts[tier]++
   })

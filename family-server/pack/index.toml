@@ -1,6 +1,30 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/resourcepackoverrides.json"
+hash = "edcf368fcc2aea8bd9f801605ab4333f1f4a0bf3857f2d8e85104fccd888cf0f"
+
+[[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "9f23004f94481158f24839c28c8b322b0f6092e605a091f1ba28e34f75c42b70"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "318519c3574871766c6dc32c0748a899d3b928666d1ed94bf0861ec90507cac0"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "dd42f76d50b4ca5d4f52b1a7e3b4868fcd120153f48cef9167545ce4a888e757"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "353a8c2f918118a0fd6214636abe001b886df51e65f5dc46d21a19de2868c327"
+metafile = true
+
+[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "13549bdf0c809b1d60c6cfabae608c533ea42c6ec2861c2ba8b5be122bd71189"
 metafile = true
@@ -11,13 +35,48 @@ hash = "76102b46589c7a53fd149b3a3b1945d2b98395a5a0d300d7f510f01cce24a40d"
 metafile = true
 
 [[files]]
+file = "mods/emf-compat-core.pw.toml"
+hash = "b322354ebbd1dabc1d490673c8f66791bc2b9122964b87bde376bf6ec51505f6"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "9105f6847c2231d388b9e2f86426aafe3969c5e5a4340763306e55eb6bf3d66c"
+metafile = true
+
+[[files]]
+file = "mods/entity-pin-cushions.pw.toml"
+hash = "20decc1555e38e3aaecf3b2b41e29119a75d6de4ef112259b079fe607a9c677c"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "cf07e4779775f938919762fed1ff89121fc84fa1086b4af05bb525e26daaca29"
+metafile = true
+
+[[files]]
+file = "mods/esf.pw.toml"
+hash = "7a173c899b6f0c18f721f341d472fcec78459f76781d9228545b75854673e2fa"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "b2f2ef63febe17f277635827ca474e1aeae321e8a82bef78942116f95d00250a"
 metafile = true
 
 [[files]]
+file = "mods/fallingleaves.pw.toml"
+hash = "937e9c66908ede3a91ffce2196385789575527324973b75ab10a35f4e4524651"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "98a1b693102afc64f47b0c45eba126f1febbed20825a13d5fb5daf5b952b356c"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "ad76a42f4bb89feb5ff332094defa52469c1056150d004f5bc891a4e024d345c"
 metafile = true
 
 [[files]]
@@ -36,8 +95,28 @@ hash = "d51f560508eb7bfa502a445472370134d78f8c8ddc2dd79f9a0dc303f35f810f"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations-emf-compat.pw.toml"
+hash = "357a0b7da6b0a5758667fed81c78e0e3d677197b132b813a75ed2ee17e0df3da"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "4f25b799d79e2b95e99c98067f174032ed5425a17c9debd23c7c6590bb050b68"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "55a8c1182401c1a94b557749fb5b531fe956d41eac8aafd19d14e5f18ee9d37c"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "342252ed725f0f0ad82c1826c8d6bce07d21f05f6a441911b2f0eb23b27253f2"
+metafile = true
+
+[[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "0024824f658e22089b46872177718a818c4118d98bed6f7a72003e0746b389f7"
 metafile = true
 
 [[files]]
@@ -51,8 +130,23 @@ hash = "09d2dbee70e91e8859e6f62e4181a80264d6dd24cc686fbedb93dda9f69fdfe6"
 metafile = true
 
 [[files]]
+file = "mods/spawn-animations.pw.toml"
+hash = "5e91e5aea16a60450da6df9c5cdb056ae5f2d25967fcc8b16c7ccb3a7403b7c9"
+metafile = true
+
+[[files]]
+file = "mods/subtle-effects.pw.toml"
+hash = "79310bfc647a9fdc8c93963919e8ec8abeaf8407da5e9a93f40067836fe49835"
+metafile = true
+
+[[files]]
 file = "mods/vivecraft.pw.toml"
 hash = "cf0ca86a21c8421e7c3273d7136666f3cf309fec821bc9b10d3ac0c55a6c03aa"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "2710f4fca8ed92cb0f573c34e6a76a6982791780886c761ead499cafc56dc86a"
 metafile = true
 
 [[files]]
@@ -63,6 +157,51 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "d96811ad169e1bd0c06cb83864aa35110fa1704f2e1a62496c351633275c6a7e"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "056d5bdc7d6cd650ba50a782bdb8e6e89b8340499f67caee58068b5ce852b230"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fa-player-extension-plusjust-expressions.pw.toml"
+hash = "08b5cd4c0067b99926e1f07ddd83dc587dadddcb1e8414b2827b967d51171743"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "2e1a6866e4366cebe200dcf71ab52923b7653f76dc48741b93411ee3bf77372a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-details.pw.toml"
+hash = "0fbf13d350fe4d7645ca6e01da4f860c18d762666ba3c4f83ba9a91312724853"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-emissive.pw.toml"
+hash = "de81d004ae049a08aab49d57db3ed5f5b659bd28b070bce0be4c520527f51b4b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-objects.pw.toml"
+hash = "d46d25e5eb08ca03367924784ed88301f53381aa1c581c5510de8deb25f19e0a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "174dfc4e2332878c681272c43ed881f963ec34f9560a8f7e858eb1927c99fa51"
+metafile = true
+
+[[files]]
+file = "resourcepacks/icon-fresh.pw.toml"
+hash = "21f19123eb37d3bb48d100cff35b06db83519d9eb52bee62df92960b24095500"
+metafile = true
+
+[[files]]
+file = "resourcepacks/trabens-3d-arrow-models.pw.toml"
+hash = "9852c8fbfce00df8a59cd5e78fca86c216b9cee8d0f1e41faae7ecbeb86bde6f"
 metafile = true
 
 [[files]]

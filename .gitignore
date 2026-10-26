@@ -23,5 +23,7 @@
 !/family-tech/server/**/
 !/family-tech/server/*.py
 !/family-tech/server/kubejs/server_scripts/*.js
+!/family-tech/server/kubejs/startup_scripts/*.js
+!/family-tech/server/kubejs/config/*.json
 !/family-tech/server/datapacks/**/*.json
 !/family-tech/server/datapacks/**/*.mcmeta

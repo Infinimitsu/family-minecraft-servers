@@ -59,6 +59,9 @@ Not shipped to clients (listed in `.packwizignore`).
 | Biomes | Tectonic (+ Lithostitched), Oh The Biomes We've Gone (+ TerraBlender (beta-only), CorgiLib, Oh The Trees You'll Grow) |
 | Structures | YUNG's API + Better Mineshafts/Dungeons/Strongholds/Desert Temples/Ocean Monuments/Witch Huts/Nether Fortresses/Jungle Temples/End Island, YUNG's Bridges, YUNG's Extras, Towns and Towers (+ Cristel Lib), Dungeons and Taverns, Explorify, When Dungeons Arise, Repurposed Structures, Sparse Structures (spreads all structures out); the last three are server-only |
 | Economy | Numismatics (Create add-on: coins, vendors, depositors, bank accounts) |
+| Mobs (2.7.0) | Friends & Foes (+ Repurposed Structures compat), Creeper Overhaul, Enderman Overhaul, Nyf's Spiders, Critters and Companions, Ribbits (frog villages, on Routes), Galosphere (cave biomes), Deeper and Darker (Otherside dimension), Spawn (+ Teal Lib), Naturalist, Ecologics, Untitled Duck Mod, Fishing Real, Upgrade Aquatic (+ Blueprint), Mowzie's Mobs, Variants & Ventures, Mobs of Mythology (+ AzureLib), Born in Chaos, Aquamirae (+ Fragmentum; **switched off by default**, see family_switches.js), The Graveyard, L_Ender's Cataclysm (+ Lionfish API), Legendary Monsters, Mutant Monsters. Villages: Guard Villagers, Villagers Plus (+ Villagers Trading Plus), Bartering Station. Let's Do Vinery and Camping. Libraries: Resourceful Config, YACL. |
+| Animations (2.6.0) | Always downloaded and on by default (Resource Pack Overrides, `config/resourcepackoverrides.json`): Fresh Animations + its official Details, Objects, Emissive and Player extensions, Player Extension + Just Expressions (blinking), Fresh Compats, Icon Fresh (Xaero mob icons). Optional, on by default: Traben's 3D Armor and 3D Arrows. Client mods: Not Enough Animations (+ EMF Compat core/NEA/Create), Wavey Capes, 3D Skin Layers, Particle Rain, Subtle Effects (+ Fzzy Config), AmbientSounds (+ CreativeCore). Both sides: Spawn Animations (hostile mobs dig out of the ground). Existing players: Options → Resource Packs, hold Ctrl+T once to apply the defaults. |
+| Visuals (2.5.2) | Traben's Entity Texture/Model/Sound Features and Entity Pin Cushions (client only), plus optional resource packs: Fresh Animations (on by default), Traben's 3D Armor and 3D Arrows. Resource packs still need turning on in Options → Resource Packs. |
 | Requests round (2.4.0) | Ars Nouveau (spell magic; adds Archwood forests), ProjectE (EMC), Compact Machines, Iron Chests, Sophisticated Backpacks (+ Sophisticated Core), EnderPack (+ MonoLib), Building Wands (pinned to the 2.14 release; packwiz picked a beta), Patchouli |
 | Loot (2.4.0) | Lootr (per-player loot in generated chests, refilling about every 3 days of server uptime), KubeJS + LootJS (+ Rhino, Better Advanced Tooltips): `servers/family-tech/kubejs/server_scripts/family_loot.js` |
 | Roads (2.3.0) | Routes 1.2.119 (+ Architectury API): roads, bridges, tunnels and signposts between towns, spawn in a town, Waystones and Xaero integration. 2.0.0 is beta-only; 1.2.119 needs the server's `max-tick-time=-1` while a new world picks its spawn town (~5 min). Server config `config/routes.json`: explicit `gen2_settlement_allowlist` (When Dungeons Arise shares one structure set, so bandit villages, airships and pirate ships counted as towns), ocean/beach towns blacklisted as spawn. |
@@ -67,9 +70,27 @@ Run `tools/pack-audit.py packs/family-tech` for exact versions; `--non-release` 
 
 ## Upcoming (want to try)
 
+- MCA Reborn (2026-10-25): villagers with families and dialogue; replaces villagers, so it clashes with Guard Villagers/Villagers Plus. Better on another server.
+- The Aether (2026-10-25, planned): the dimension plus Deep Aether, Aether Villages, Explore Ruins: The Aether, Aetherial Islands, Aether Basic Ores and quality-of-life add-ons. Only affects the Aether, so it can be added to the running world.
+- RPG Series (2026-10-25, to discuss): Better Combat, Combat Roll, Wizards/Paladins/Archers/Rogues, Spell Engine and friends. Changes combat for everyone.
+- Create: Aeronautics + Awakened Islands (2026-10-25, to discuss): airships and floating islands. Awakened Islands is alpha.
+- Cobblemon (2026-10-25): wanted on a separate server instead.
 - Ender IO (2026-10-25): every 1.21.1 build is labeled beta (8.2.12-beta). Overlaps Mekanism; its draw is the conduits. Add after the 2.4.0 mods have been played a while.
 
 ## Rejected
+
+- Reintegrated: Chipped (2026-10-25): its inline Lithostitched dungeon features ('Found direct holder') make every /reload fail, which breaks the KubeJS switches and loot tuning. Removed.
+- Alex's Mobs, Alex's Caves, Ice and Fire (2026-10-25): no official NeoForge 1.21.1 version (only unofficial ports of Alex's Mobs).
+- Bosses of Mass Destruction (2026-10-25): Fabric only.
+- Fresh Food (2026-10-25): pulls in Sinytra Connector (Fabric-on-NeoForge layer), Modefite and Respackopts. Too risky for a cosmetic pack.
+- Fresh Animations: Player Extension Compat (2026-10-25): requires Better Combat + playerAnimator (RPG Series, on hold).
+- Fresh Animations Extensions bundle (2026-10-25): used the individual official extensions instead (the Just Expressions bridge needs the standalone Player Extension).
+- Flowing Fluids (2026-10-25, held back): finite water/lava physics would break infinite water and many Create water builds; discuss before adding.
+- Solid Mobs, Resource Explorer (2026-10-25): Fabric only / a resource-pack authoring tool.
+- MBS - Moog's Bountiful Structures (2026-10-25): needs Biomes O' Plenty (not listed on Modrinth); we use Oh The Biomes We've Gone.
+- Gazebos (2026-10-25): needs Spell Engine (RPG Series); revisit with the RPG Series.
+- Incendium (again, 2026-10-25): still alpha-only for 1.21.1.
+- Repurposed Structures - Friends and Foes compat (2026-10-25): only matters with Friends & Foes, which isn't installed.
 
 - Random Things (2026-10-25): no version after 1.16.5.
 - Thaumcraft (2026-10-25): 1.12.2 only, never ported. Ars Nouveau and Occultism fill the role.
@@ -104,3 +125,12 @@ Run `tools/pack-audit.py packs/family-tech` for exact versions; `--non-release` 
 - 2.2.0 (2026-10-25): added 5 optional client-side shader packs (BSL, Bliss, Complementary Reimagined/Unbound, Photon); players pick them in packwiz-installer's first-run list.
 - 2.3.0 (2026-10-25): added Routes and Architectury API; Sparse Structures set back to vanilla spacing for settlements (factor 1) and taverns (1.5); world reset.
 - 2.4.0 (2026-10-25): requests round (Ars Nouveau, ProjectE, Compact Machines, Iron Chests, Sophisticated Backpacks, EnderPack, Building Wands, Patchouli), Lootr, KubeJS + LootJS loot script, worldgen datapack (rich cave ores, diamond/emerald geodes, more ancient debris), bigger biomes; world reset.
+
+- 2.5.0/2.5.1 (2026-10-25): structure batch (Create: Let The Adventure Begin, Create: New Beginnings, Create: Pretty Structures, Dungeon Crawl, Adventure Dungeons, Yggdrasil, Moog's Voyager/Soaring/Nether/End Structures, Additional Structures, Grim Kingdoms, Immersive Structures, Katters, ATi, Unnamed Desert, Formations Overworld/Nether, Luki's Grand Capitals, Epic Structures Villages/Witch Huts, Nice Villagers Remastered, Reintegrated: Chipped); 2.5.1 dropped MBS and Gazebos (hidden dependencies). World reset.
+- 2.5.2 (2026-10-25): Traben's client mods (ETF, EMF, ESF, Entity Pin Cushions) and optional resource packs (Fresh Animations, 3D Armor, 3D Arrows). Client only, no server change.
+- 2.6.0 (2026-10-25): animation and ambience round (see the Animations row); resource packs on by default via Resource Pack Overrides.
+- 2.7.0 (2026-10-25): mob and village round (see the Mobs row); Aquamirae switched off via kubejs/config/family_switches.json; server.properties spawn-animals and spawn-npcs turned on (they were off and deleted every animal and villager); world reset.
+- 2.7.1 (2026-10-25): Immersive Structures pinned to its NeoForge build (2.2.0 was a Forge jar and never loaded; found by the new log digest). Towns and Towers' village_forest (an abandoned ruin, no villagers) taken off Routes' towns and spawn candidates. World reset.
+- 2.7.2 (2026-10-25): client crash fix. Kotlin for Forge added for clients (Fzzy Config needs it; not listed on Modrinth). RS × Friends & Foes compat made server-only (it needs Repurposed Structures, which is server-only). Found with tools/check-deps.py.
+- 2.8.0 (2026-10-25): Advanced Backups (server). Village protection script (kubejs family_protection) and the family_fixes datapack (missing Towns and Towers villager pools, two broken loot tables).
+- 2.8.1 (2026-10-25): removed Reintegrated: Chipped (broke /reload).

@@ -15,11 +15,17 @@
             "data": {
               "Name": "minecraft:deepslate_diamond_ore"
             },
-            "weight": 2
+            "weight": 1
           },
           {
             "data": {
               "Name": "minecraft:amethyst_block"
+            },
+            "weight": 2
+          },
+          {
+            "data": {
+              "Name": "minecraft:calcite"
             },
             "weight": 1
           }
@@ -67,7 +73,7 @@
       "crack_point_offset": 2
     },
     "use_potential_placements_chance": 0.0,
-    "use_alternate_layer0_chance": 0.06,
+    "use_alternate_layer0_chance": 0.01,
     "placements_require_layer0_alternate": true,
     "outer_wall_distance": {
       "type": "minecraft:uniform",

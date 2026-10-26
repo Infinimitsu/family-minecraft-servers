@@ -10,5 +10,8 @@ full list is in [MODS.md](MODS.md).
 - **Vivecraft:** join in VR or on a normal screen.
 - **Xaero's Minimap and World Map.**
 - **Performance:** Lithium, FerriteCore, plus Sodium and Iris on clients.
+- **Animations and ambience:** Fresh Animations (with extensions and player animations)
+  on by default, Not Enough Animations, Wavey Capes, 3D Skin Layers, Particle Rain, Subtle
+  Effects, Falling Leaves and AmbientSounds. All client-side.
 - **Optional shaders:** BSL, Bliss, Complementary (Reimagined and Unbound), Photon.
   Pick any on first install.

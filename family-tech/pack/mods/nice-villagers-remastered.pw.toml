@@ -1,0 +1,13 @@
+name = "Nice Villagers Remastered"
+filename = "nice-villagers-remastered-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wa6wQIR7/versions/I8Jp4hhL/nice-villagers-remastered-1.0.jar"
+hash-format = "sha512"
+hash = "85325e2965716961f1585bba77cd8233befcd1069df2461da9e592f8219209a26193f091ccdaeb30c1fbb888a9f80d5bf40fbb497a9d96edc9a23241ac695063"
+
+[update]
+[update.modrinth]
+mod-id = "wa6wQIR7"
+version = "I8Jp4hhL"

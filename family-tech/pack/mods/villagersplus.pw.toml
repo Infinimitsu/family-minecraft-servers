@@ -1,0 +1,13 @@
+name = "VillagersPlus"
+filename = "villagersplus-neoforge-mc1.21.1-4.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oHGMwNDR/versions/ScevmljB/villagersplus-neoforge-mc1.21.1-4.1.0.jar"
+hash-format = "sha512"
+hash = "9752e17bdab06e78742dec2d6f68fb8d72de2d2cd2fb70a03550433be91c02b6140b3dfeda2b07a47c9302822cbf1fcc9a1f1887a02ff4a0270234e9825f6a55"
+
+[update]
+[update.modrinth]
+mod-id = "oHGMwNDR"
+version = "ScevmljB"

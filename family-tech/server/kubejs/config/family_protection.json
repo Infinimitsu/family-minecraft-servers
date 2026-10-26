@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "message": "This town is protected. Build your own place nearby!",
+  "structures": [
+    "#minecraft:village",
+    "#kattersstructures:village",
+    "repurposed_structures:city_overworld",
+    "nova_structures:village_birch",
+    "nova_structures:village_jungle",
+    "ribbits:ribbit_village",
+    "ati_structures:jungle_settlement",
+    "dungeons_arise:mushroom_village"
+  ],
+  "except": [
+    "towns_and_towers:village_forest",
+    "dungeons_arise:bandit_village",
+    "nova_structures:village_swamp"
+  ],
+  "allow_break": [
+    "#minecraft:crops", "#minecraft:flowers", "#minecraft:saplings",
+    "minecraft:short_grass", "minecraft:tall_grass", "minecraft:fern", "minecraft:large_fern",
+    "minecraft:snow", "minecraft:pumpkin", "minecraft:melon", "minecraft:sugar_cane",
+    "minecraft:sweet_berry_bush", "minecraft:bamboo", "minecraft:cocoa",
+    "minecraft:torch", "minecraft:wall_torch", "minecraft:lantern"
+  ],
+  "allow_place": [
+    "#minecraft:crops", "#minecraft:saplings",
+    "minecraft:torch", "minecraft:wall_torch", "minecraft:lantern"
+  ],
+  "protect_villagers": true,
+  "bypass_players": []
+}

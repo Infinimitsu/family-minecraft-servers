@@ -1,12 +1,12 @@
 name = "Family Server"
 author = "infinimitsu"
-version = "1.1.0"
+version = "1.3.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "34e8f04da0e8b1e5e0ff43caa459b46864869154cc23d9e5431a597512d1ea86"
+hash = "bcc9900bf649bffa3fa50d124d2ecbbe221c0c48354191bce72d6e5693a62db0"
 
 [versions]
 fabric = "0.20.1"

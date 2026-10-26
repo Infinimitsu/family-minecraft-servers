@@ -117,10 +117,14 @@ def main():
 
     # Gem geodes.
     write(f"{wg}/configured_feature/diamond_geode.json",
-          geode([("minecraft:deepslate_diamond_ore", 2), ("minecraft:amethyst_block", 1)], "minecraft:diamond_block", 0.06))
+          # Tamed 2026-10-25: ~1 in 4 of the lining is diamond ore, plus a rare diamond block
+          # (about 50-100 diamonds per geode; the first version held ~300).
+          geode([("minecraft:deepslate_diamond_ore", 1), ("minecraft:amethyst_block", 2), ("minecraft:calcite", 1)],
+                "minecraft:diamond_block", 0.01))
     write(f"{wg}/placed_feature/diamond_geode.json", {"feature": f"{NS}:diamond_geode", "placement": geode_placement(200, -58, 0)})
     write(f"{wg}/configured_feature/emerald_geode.json",
-          geode([("minecraft:emerald_ore", 2), ("minecraft:calcite", 1)], "minecraft:emerald_block", 0.06,
+          geode([("minecraft:emerald_ore", 1), ("minecraft:calcite", 2), ("minecraft:amethyst_block", 1)],
+                "minecraft:emerald_block", 0.01,
                 middle="minecraft:tuff"))
     write(f"{wg}/placed_feature/emerald_geode.json", {"feature": f"{NS}:emerald_geode", "placement": geode_placement(150, -32, 48)})
 

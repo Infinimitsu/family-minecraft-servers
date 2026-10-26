@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:archaeology",
+  "random_sequence": "spawn:archaeology/anthill",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spawn:fallen_leaves",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spawn:ant_pupa",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

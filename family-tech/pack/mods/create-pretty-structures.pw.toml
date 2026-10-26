@@ -1,0 +1,13 @@
+name = "Create: Pretty Structures"
+filename = "NF+1.21.1+BN+V1.1.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZMLc5JnS/versions/5107YZLI/NF%2B1.21.1%2BBN%2BV1.1.2.jar"
+hash-format = "sha512"
+hash = "f0e84a7ac9693a3269bd35a988c96fb5551e6720a0007674da0133f39c9fe35a737f1b1da44bccd039bb4064f3cf117525f4480bcc3b501db2e60366ced50141"
+
+[update]
+[update.modrinth]
+mod-id = "ZMLc5JnS"
+version = "5107YZLI"
