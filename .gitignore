@@ -11,11 +11,13 @@
 !/family-*/README.md
 !/family-*/MODS.md
 
-# packwiz packs: .toml metadata only (names, versions, download links; never jars).
+# packwiz packs: .toml metadata (names, versions, download links; never jars) plus the
+# small .json configs the pack ships (e.g. config/resourcepackoverrides.json).
 !/family-*/pack/
 /family-*/pack/**
 !/family-*/pack/**/
 !/family-*/pack/**/*.toml
+!/family-*/pack/**/*.json
 
 # Family Tech's server-side tuning: scripts and datapack JSON only.
 !/family-tech/server/

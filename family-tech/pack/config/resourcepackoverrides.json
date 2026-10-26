@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/FreshAnimations_v1.11.1_1.20+.zip",
+    "file/trabens-3d-arrows-1.1.zip",
+    "file/Icon Fresh 1.2.zip",
+    "file/FreshCompats_v1.6.zip",
+    "file/FA+Objects-v2.1.2.zip",
+    "file/FA+Emissive-v1.6.zip",
+    "file/FA+Details-v2.2.1.zip",
+    "file/Traben's 3D Armor - 1.0.1.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/FA+Player_Expressions-v1.2.zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "pack_overrides": {}
+}
