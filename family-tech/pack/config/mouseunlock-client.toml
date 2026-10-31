@@ -1,0 +1,29 @@
+# Mouse Unlock client configuration
+# Enable the third-person cinematic camera while the cursor is released.
+cinematic=false
+
+# Hide the HUD while the cursor is released, like pressing F1.
+hide_ui=false
+
+# Camera movement speed in degrees per second. Range: 0-90.
+orbit_speed=12.0
+
+# Bounce the camera left/right instead of continuously orbiting.
+cinematic_bounce=false
+
+# Maximum left/right bounce angle PER SIDE in degrees. 50 means -50 to +50. Range: 5-180.
+bounce_range=50.0
+
+# Vertical cinematic movement range PER SIDE in degrees. 0 disables up/down movement.
+cinematic_pitch=2.0
+
+# Seconds for one full up/down camera cycle. Higher = slower. Range: 4-120.
+cinematic_pitch_period=24.0
+
+# Idle performer runs only during normal Mouse Unlock (F8), never during AFK Hold.
+idle_enabled=false
+idle_head=true
+idle_head_yaw_range=18.0
+idle_head_speed=1.0
+idle_swing=true
+idle_swing_interval=5.5

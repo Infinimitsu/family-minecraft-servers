@@ -1,13 +1,14 @@
 name = "Routes"
-filename = "routes-neoforge-1.2.119.jar"
+filename = "routes-neoforge-2.0.0-beta.2.jar"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/PfmV1XPQ/versions/Icskl0LC/routes-neoforge-1.2.119.jar"
+url = "https://cdn.modrinth.com/data/PfmV1XPQ/versions/DPjeVRHN/routes-neoforge-2.0.0-beta.2.jar"
 hash-format = "sha512"
-hash = "f6fc46e6a953b331df1080050512a0e1dab5bffc414befa747b0b04c71a2ef6e59986c008e882384bbe95f1ae08d614baeaedc57d947146777c4ef7c2b898e38"
+hash = "8dc4584c305c58ca5ded124c4fc9f3ba22e95257b2f8f88aa52d4653b739b7925b1b000b4bbec77c98dd612fd40321f2244b016de077a0e9abdcc16ca9175aba"
 
 [update]
 [update.modrinth]
 mod-id = "PfmV1XPQ"
-version = "Icskl0LC"
+version = "DPjeVRHN"

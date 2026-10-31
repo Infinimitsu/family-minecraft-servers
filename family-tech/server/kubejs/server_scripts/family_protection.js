@@ -78,7 +78,10 @@ let errors = 0
 const safe = fn => e => { try { fn(e) } catch (err) { if (errors++ < 5) console.error(`family_protection: ${err}`) } }
 
 const blockAllowed = (state, allow) =>
-  allow.ids.has(String($BuiltIn.BLOCK.getKey(state.getBlock()))) || allow.tags.some(tag => state.is(tag))
+  allow.ids.has(String($BuiltIn.BLOCK.getKey(state.getBlock()))) ||
+  // is() is overloaded (TagKey / HolderSet): Rhino needs the explicit signature, or it throws and
+  // the protection lets the action through (seen 2026-10-29).
+  allow.tags.some(tag => state["is(net.minecraft.tags.TagKey)"](tag))
 
 function bypasses(player) {
   if (!player) return false
@@ -109,7 +112,8 @@ const HANDLERS = !ENABLED ? {} : {
   }),
   onHurt: safe(e => {
     if (!PROTECT_MOBS) return
-    const victim = e.getEntity(), attacker = e.getSource().getEntity()
+    // KubeJS renames DamageSource.getEntity() to getActual() for scripts (getEntity "isn't found").
+    const victim = e.getEntity(), attacker = e.getSource().getActual()
     if (!attacker || !attacker.isPlayer || !attacker.isPlayer() || bypasses(attacker)) return
     if (!PROTECTED_MOBS.has(String($BuiltIn.ENTITY_TYPE.getKey(victim.getType())))) return
     if (structureAt(victim.level(), victim.blockPosition())) { e.setCanceled(true); deny(attacker) }

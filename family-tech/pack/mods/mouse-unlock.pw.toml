@@ -1,0 +1,13 @@
+name = "Mouse Unlock"
+filename = "mouseunlock-1.3.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uIbGB0pl/versions/KEyhyHNf/mouseunlock-1.3.4.jar"
+hash-format = "sha512"
+hash = "16a7ede295797591b39fb6c11d413dd52ee175c649b8a4ef755dfe7c81cf9f0a0a6c78bbacd1ff4a08a8073169cc87698184f335810fa5ff1e20efbe6157b2d4"
+
+[update]
+[update.modrinth]
+mod-id = "uIbGB0pl"
+version = "KEyhyHNf"

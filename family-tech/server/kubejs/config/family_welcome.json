@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "first_join": [
+    "§6Welcome to Family Tech, {name}!",
+    "§7Claim your base so it stays yours: open the map and claim your chunks with Open Parties and Claims.",
+    "§7Waystones, backpacks and lots of machines are waiting. Have fun!"
+  ],
+  "every_join": [
+    "§6Welcome back, {name}!"
+  ],
+  "news": [
+    "§aNews: Compact Machines can be crafted now."
+  ]
+}

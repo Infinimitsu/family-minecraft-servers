@@ -38,6 +38,7 @@ source of truth for the server and every client. Not shipped to clients
 
 ## Upcoming (want to try)
 
+- Controlify (2026-10-26, add in the next update round): controller support, client-only, in every instance and both packs. 3.0.1+lts release for 1.21.1 NeoForge and 1.21.4 Fabric.
 ## Rejected
 
 - Traben's 3D Armor (2026-10-25): no version marked for 1.21.4 (it's on Family Tech, 1.21.1).

@@ -1,12 +1,12 @@
 name = "Family Tech"
 author = "infinimitsu"
-version = "2.8.1"
+version = "2.19.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "02248ddc42bc2505cac27450ccf1bd0706b703ab2ba4933856f115b7fa6e2aa0"
+hash = "53863590d226e9336c9157f94a20d13d9d219d4bf41f2c5ae43f6b7716b9ea35"
 
 [versions]
 minecraft = "1.21.1"

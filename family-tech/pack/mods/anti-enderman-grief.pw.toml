@@ -1,0 +1,13 @@
+name = "Anti Enderman Grief"
+filename = "anti-enderman-grief-1.0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oggXYZsw/versions/9aw3aLez/anti-enderman-grief-1.0.0.1.jar"
+hash-format = "sha512"
+hash = "fd91b37ed44a4bd4b027849726f2206c3232814ecf53dcd079a70bb180e4ac7af5fdf0b07dc5f7bf1917044ff6b96f4d7d9f9b34833146ffbbd1d12d99b809eb"
+
+[update]
+[update.modrinth]
+mod-id = "oggXYZsw"
+version = "9aw3aLez"

@@ -44,9 +44,8 @@ exciting and building big machines is the main event. The full mod list is in
     upgrade templates, strong enchanted books.
   - Treasure rooms and boss vaults: netherite ingots, upgrade templates, enchanted
     diamond and netherite gear, totems, enchanted golden apples.
-  - Stacks in chests are doubled, mobs drop twice as much (plus the odd emerald or
-    diamond), fishing is mostly treasure, and brushing suspicious sand or gravel often
-    turns up gems.
+  - Stacks in chests are doubled, mobs drop twice their normal drops, fishing is
+    mostly treasure, and brushing suspicious sand or gravel often turns up gems.
 - **Your own loot.** With Lootr, each player gets their own copy of every
   generated chest, so nobody finds one already emptied, and chests refill after a
   few days. Chests you place yourself work normally.

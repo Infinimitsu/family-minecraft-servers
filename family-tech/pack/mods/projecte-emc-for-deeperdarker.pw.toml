@@ -1,0 +1,13 @@
+name = "ProjectE: EMC for Deeper and Darker"
+filename = "deeperdarker_emc-0.1.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4VDiUwCB/versions/RWoXRQPT/deeperdarker_emc-0.1.0%2Bneoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "829482fa9f83ee740db8690ab1dafa8689c41f311aaf7e9b174bb3d12fad9d1fb6010d237d4af0587f38df0f15eeacf566c87de14ee515e59e4b27a111848129"
+
+[update]
+[update.modrinth]
+mod-id = "4VDiUwCB"
+version = "RWoXRQPT"

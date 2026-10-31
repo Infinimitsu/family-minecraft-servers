@@ -1,0 +1,13 @@
+name = "ProjectE: EMC for L_Ender's Cataclysm"
+filename = "cataclysm_emc-0.1.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P222yxDS/versions/CDwgzK2t/cataclysm_emc-0.1.0%2Bneoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "85ac66612fdd8714ed59c3b2051c7ef38b50c6e1621f6de6a8eda825844356a4ea6b6fdc12805d57d6405f1148f859e127d3b61407ac6c439a9c974f8892a67c"
+
+[update]
+[update.modrinth]
+mod-id = "P222yxDS"
+version = "CDwgzK2t"
