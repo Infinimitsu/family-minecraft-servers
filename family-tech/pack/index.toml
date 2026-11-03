@@ -9,6 +9,10 @@ file = "config/resourcepackoverrides.json"
 hash = "ba5fd745827dbbfe5b2d45413752db646c38bba6062e64b3186ab741f982d1bc"
 
 [[files]]
+file = "config/routes.json"
+hash = "12f75854bf3c950128e115773cb7c994d358e2a9bf0a9a98cb6c39ac75032d8d"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "2dc498bd8a43a8e02fc9d08fe5846ac17f6eabbecbf38ae39aa7b1f23fe100b0"
 metafile = true
@@ -196,6 +200,11 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "fb604f59e155e17ce4f193e043038789b29234f02be651b3d84d988fb938f64f"
+metafile = true
+
+[[files]]
+file = "mods/create-jei-compat.pw.toml"
+hash = "0bfe281ddfbe98454d57fb2227962065796717739d81a912a075b0c8df232c6b"
 metafile = true
 
 [[files]]
@@ -539,8 +548,38 @@ hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
 
 [[files]]
+file = "mods/jei-multiblocks.pw.toml"
+hash = "2649d9273df4a10cceeec5ca5d051a929df04f13d46d5418e8c2f226628219bb"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "58333a1b7c35bd5940e63b498cf44da16b1f2464c73d72203d1fed84ccfd352a"
+metafile = true
+
+[[files]]
+file = "mods/jeioptimizer.pw.toml"
+hash = "c2390eb3971a681c0789fb274f139809bfe3d8b675452ffc1486dbc46a64d117"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-archaeology.pw.toml"
+hash = "76a2d3da63cca1c74822e2cd9d366db071a382782c75f3b214e50e94dd36fd0a"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
+hash = "fe1354d34df356e42dbea734d30c44b46a4484dcd68a23045927277dafefab9d"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-mekanism-multiblocks.pw.toml"
+hash = "f1ea6ce3347c52e404cb9cc542cf94c93999f441b6215970db1b6ef98605402f"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-professions-jep.pw.toml"
+hash = "1933baa0a282d7298a49a519aa0d03dffff69b6dc6eee9e985c4fed54b355028"
 metafile = true
 
 [[files]]
@@ -551,6 +590,11 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "4c64dc39ebe1d44d39b5876848695d3f8d4670be71019509bf74905309ac2791"
+metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding.pw.toml"
+hash = "c2e592ffd5962323e86b553b07fe0512a3429b37354ca4766c3b08bc88002701"
 metafile = true
 
 [[files]]
@@ -661,6 +705,11 @@ metafile = true
 [[files]]
 file = "mods/mahou-tsukai.pw.toml"
 hash = "5941e2c19b91a30259faface31ac46f7c3e1851728633d69080707d8af38f3f1"
+metafile = true
+
+[[files]]
+file = "mods/mapsyncer-for-xaeroworldmap.pw.toml"
+hash = "fc09ad6f603a6bc743c439fb154f0e3385ffa7566fdd5f8e8c12f6d34b66bb24"
 metafile = true
 
 [[files]]
@@ -889,6 +938,11 @@ hash = "2e0b31d4a3d4298045b368558ce7fe191a13bccb02a4524ca748598a9dcf4ca5"
 metafile = true
 
 [[files]]
+file = "mods/refined-storage-jei-integration.pw.toml"
+hash = "fd3e3dd73614b09899f5a445f989fd4f43c36a67e6a4c986f1263edbc5239944"
+metafile = true
+
+[[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
 metafile = true
@@ -1056,6 +1110,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
+metafile = true
+
+[[files]]
+file = "mods/uei.pw.toml"
+hash = "cc1eaab22bdaf1704ceb7a15f2c9b236e57268e3ba3babfb9237651289e1f56b"
 metafile = true
 
 [[files]]
