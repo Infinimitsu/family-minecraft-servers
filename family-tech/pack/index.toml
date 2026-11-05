@@ -33,6 +33,11 @@ hash = "379b556ce9f6aa52c37e23cfe9577dc315c218d96768c2efcb9c95d3fce94c7d"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "1801f6f6bf0bd7eaf33544c0ad137f9162aa35239a030efe29a899f5c28bddfa"
 metafile = true
@@ -108,6 +113,11 @@ hash = "a2c8cf1a4fc5faed55ca1f8d04f7abaa1c8282b9bcd70e1b3e607181923f48d9"
 metafile = true
 
 [[files]]
+file = "mods/brandons-core.pw.toml"
+hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
+metafile = true
+
+[[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "2ddd7b954c4a91910405e392b07f059c010dd092e9da096f381e925595ce741f"
 metafile = true
@@ -138,6 +148,11 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/codechicken-lib.pw.toml"
+hash = "1e1678b169096708fcb92496f251260471221554f70ca0dab1b99f2a6b72ea7b"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
@@ -145,6 +160,11 @@ metafile = true
 [[files]]
 file = "mods/compact-machines.pw.toml"
 hash = "dc42384932c78a1ee818af8d8535b51ebd836c6d1f13f3171d9bd83985565f04"
+metafile = true
+
+[[files]]
+file = "mods/controlify.pw.toml"
+hash = "9769099edae208d8babebc8031a52c7c48a397c50262e52b6c00fbfe48227f6c"
 metafile = true
 
 [[files]]
@@ -308,6 +328,11 @@ hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]
+file = "mods/draconic-evolution.pw.toml"
+hash = "61dbbdcc41c7bf50540b8d1e83fdf61d9367f392690b45d3cdece8aad55370ac"
+metafile = true
+
+[[files]]
 file = "mods/dungeoncrawl.pw.toml"
 hash = "236b80b3c623c8f388222bf2d4a7499a09fc0b6a438c1299c1a39e2809e3133e"
 metafile = true
@@ -405,6 +430,11 @@ metafile = true
 [[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "a0e98b12d824759f6b39eae1d428e7df6fe63a72b85d17dde4e3c002521e7261"
+metafile = true
+
+[[files]]
+file = "mods/fallingtree.pw.toml"
+hash = "f9f1e1c017e7b902531a68a3f8c9650a18a40a8ab9f0bf44ef5af08b37da8aaf"
 metafile = true
 
 [[files]]
@@ -610,6 +640,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-lang-forge.pw.toml"
+hash = "0640ee85f42ddc197e6f851735494b49dea522547726ce90ae37999a63e0f933"
 metafile = true
 
 [[files]]
@@ -858,6 +893,16 @@ hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
 
 [[files]]
+file = "mods/nuclear-radiation.pw.toml"
+hash = "ff2b53735a8bfbd62620fec58dce16cdfd44c2f7ecd59f9326ab21b047787f5a"
+metafile = true
+
+[[files]]
+file = "mods/nuclearcraft-neoteric.pw.toml"
+hash = "522a4bbb6e908adc20bab3f848af12ad9f6e57250d743190d1593e0e84a4fd1b"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
@@ -890,6 +935,11 @@ metafile = true
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "299ed58980f5c02afbaabcc52d5e573e8b8ab0c2c30fd688d6d7e86e7ac6bf6d"
+metafile = true
+
+[[files]]
+file = "mods/oritech.pw.toml"
+hash = "dbb2a2fc538df2577ac83d9eb0d7d4a67b15b3e2f1570ac380dacd79f8ddc0a4"
 metafile = true
 
 [[files]]
@@ -945,6 +995,11 @@ metafile = true
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
+metafile = true
+
+[[files]]
+file = "mods/refined-types.pw.toml"
+hash = "8d4996d012ac5f7025e22a3f46e71f4ec473ce6d276c9663ab26e9bfd65b8d0b"
 metafile = true
 
 [[files]]
@@ -1135,6 +1190,11 @@ metafile = true
 [[files]]
 file = "mods/variants-and-ventures.pw.toml"
 hash = "968071ee9dcd29fd9c5444242859a3e30715f48f7ca7378a2ff3fa7358e04cf7"
+metafile = true
+
+[[files]]
+file = "mods/veinminer.pw.toml"
+hash = "4edd51452ca0a1d360d279a201f17604035357fddedede036a3e284f4133a0d5"
 metafile = true
 
 [[files]]

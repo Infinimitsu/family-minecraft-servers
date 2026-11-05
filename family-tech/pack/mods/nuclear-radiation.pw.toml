@@ -1,0 +1,13 @@
+name = "Nuclear Radiation"
+filename = "NuclearRadiation-1.21.1-1.0.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mSYf8LRC/versions/lsYGVNX9/NuclearRadiation-1.21.1-1.0.20.jar"
+hash-format = "sha512"
+hash = "0170f609fbd3f3f8ab3e91be0bc291db4bacd5efbe4d31fec3bc80dcaa665a68b08b17a75ae06e84e41a9ba58dd50c35caf802760f6e00a57eb000a507bf9df9"
+
+[update]
+[update.modrinth]
+mod-id = "mSYf8LRC"
+version = "lsYGVNX9"

@@ -1,0 +1,13 @@
+name = "KotlinLangForge"
+filename = "KotlinLangForge-2.17.0-k2.4.21-3.0+neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/1vrSzlao/versions/fIh9AP9s/KotlinLangForge-2.17.0-k2.4.21-3.0%2Bneoforge.jar"
+hash-format = "sha512"
+hash = "b16acdc0caf602db502b92dab043162e9250c4c62a8a69a79300558023650f559cd3360fdfe798e50fb09584b7428140a1cd4d277c21ddfbda36e57cfb3b736b"
+
+[update]
+[update.modrinth]
+mod-id = "1vrSzlao"
+version = "fIh9AP9s"
